@@ -2,7 +2,7 @@
 
 This repository contains code to predict car prices using machine learning techniques. The dataset used for training and testing the model is stored in the 'cars_train.csv' file. Before running the code, make sure you have Python installed, along with the required libraries mentioned in the 'requirements.txt' file. To set up the environment, you can use a virtual environment:
 
-Clone the repository to your local machine:
+Download (or clone) the repository to your local machine:
 bash
 
 ```
@@ -10,10 +10,9 @@ git clone https://github.com/your_username/car_price_prediction.git
 cd car_price_prediction
 ```
 
-Create a virtual environment and activate it (optional, but recommended):
+Create a virtual environment and activate it (optional):
 
 ```
-bash
 python -m venv venv
 source venv/bin/activate
 ```
@@ -21,16 +20,12 @@ source venv/bin/activate
 Install the required dependencies:
 
 ```
-bash
 pip install -r requirements.txt
 ```
 
-Now, you can run the car price prediction code:
+Now, you can run the car price prediction code. In your local machine, open your favorite jupyter environment and run the main.ipynb file. The 'cars_test_predictions.csv' will be generated in your local machine.
 
-```
-bash
-python car_price_prediction.py
-```
+Remember to install the requirements.
 
 ## Limitations
 
